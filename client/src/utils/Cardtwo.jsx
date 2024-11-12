@@ -40,7 +40,7 @@ const Cardtwo = () => {
     };
 
     axios
-      .post("http://localhost:3000/order", obj)
+      .post("https://tripify-m2dn.onrender.com/order", obj)
       .then((res) => {
         const options = {
           key: "rzp_test_i6kJlpxdFLeWaE",
@@ -55,9 +55,9 @@ const Cardtwo = () => {
             navigate("/");
           },
           prefill: {
-            name: "Vikram Kumar Choudhary",
-            email: "vikram0104irctc@gmail.com",
-            contact: "9988776644",
+            name: "Parveen Barak",
+            email: "parveenbarak117@gmail.com",
+            contact: "8053021239",
           },
           notes: {
             address: "Razorpay Corporate Office",

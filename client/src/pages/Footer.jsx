@@ -8,12 +8,12 @@ export const Footer = () => {
       <div className="max-w-[1360px] m-auto pt-8 pb-6 px-5">
         <div className="w-full flex justify-center items-center gap-10">
           <Link
-            to={"https://www.linkedin.com/in/vikram-kumar-choudhary/"}
+            to={"https://www.linkedin.com/in/parveenbarak/"}
             target="_blank"
           >
             <FaLinkedin className="text-white text-2xl md:text-3xl cursor-pointer" />
           </Link>
-          <Link to={"https://github.com/vikram0104irctc"} target="_blank">
+          <Link to={"https://github.com/parveenbarak"} target="_blank">
             <FaGithub className="text-white text-2xl md:text-3xl cursor-pointer" />
           </Link>
           <FaYoutube className="text-white text-2xl md:text-3xl cursor-pointer" />
