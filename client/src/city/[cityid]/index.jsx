@@ -11,7 +11,7 @@ const CityDetails = () => {
   useEffect(() => {
     if (cityid) {
       axios
-        .get(`https://tripify-m2dn.onrender.com/cities/${cityid}`)
+        .get(`https://triptales-nm5q.onrender.com/cities/${cityid}`)
         .then((response) => {
           setCity(response.data);
         })
