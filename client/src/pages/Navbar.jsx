@@ -16,7 +16,7 @@ const Navbar = () => {
         >
           <img width={50} src={logo} />
           <h2 className="font-bold text-xl leading-3 cursor-pointer">
-            TripTales
+            Tripify
           </h2>
         </div>
         {isSignedIn ? (

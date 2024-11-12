@@ -62,7 +62,7 @@ const GenerateTrip = () => {
     };
     setLoading(true);
     axios
-      .post("https://triptales-nm5q.onrender.com/generateitinerary", obj)
+      .post("http://localhost:3000/generateitinerary", obj)
       .then((res) => {
         setLoading(false);
         toast.success("Trip generated successfully");

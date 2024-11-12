@@ -11,7 +11,7 @@ const CityDetails = () => {
   useEffect(() => {
     if (cityid) {
       axios
-        .get(`https://triptales-nm5q.onrender.com/cities/${cityid}`)
+        .get(`http://localhost:3000/cities/${cityid}`)
         .then((response) => {
           setCity(response.data);
         })

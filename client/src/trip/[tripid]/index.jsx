@@ -17,7 +17,7 @@ const FinalTrip = () => {
   useEffect(() => {
     if (tripid) {
       axios
-        .get(`https://triptales-nm5q.onrender.com/generateitinerary/${tripid}`)
+        .get(`http://localhost:3000/generateitinerary/${tripid}`)
         .then((res) => {
           setPlan(res.data.data);
           fetchHotelImages(

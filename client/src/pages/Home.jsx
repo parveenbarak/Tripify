@@ -17,7 +17,7 @@ const Home = () => {
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-25 z-10 rounded-md"></div>
         <div className="absolute top-0 left-0 w-full h-full z-20 flex justify-center items-center flex-col">
           <p className="text-white text-3xl md:text-6xl font-bold text-center">
-            Hi, I'm TripTales,
+            Hi, I'm Tripify,
           </p>
           <p className="text-white text-3xl md:text-6xl font-bold text-center">
             your personal trip planner agent

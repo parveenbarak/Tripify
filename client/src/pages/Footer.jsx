@@ -42,7 +42,7 @@ export const Footer = () => {
       </div>
       <div className="w-full bg-[#1ba0e2] border-t-[2px] border-gray-300">
         <h2 className="text-white text-center p-[1px] text-sm">
-          Designed by Vikram © 2024. All rights reserved.
+          Designed by Parveen Barak © 2024. All rights reserved.
         </h2>
       </div>
     </div>
