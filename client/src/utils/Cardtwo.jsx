@@ -46,7 +46,7 @@ const Cardtwo = () => {
           key: "rzp_test_i6kJlpxdFLeWaE",
           amount: obj.amount,
           currency: obj.currency,
-          name: "Trip Tales",
+          name: "Tripify",
           description: "Test Transaction",
           image: "/logo.svg",
           order_id: res.data.id,
@@ -55,9 +55,9 @@ const Cardtwo = () => {
             navigate("/");
           },
           prefill: {
-            name: "Vikram Kumar Choudhary",
-            email: "vikram0104irctc@gmail.com",
-            contact: "9988776644",
+            name: "Parveen Barak",
+            email: "parveenbarak117@gmail.com",
+            contact: "8053021239",
           },
           notes: {
             address: "Razorpay Corporate Office",
